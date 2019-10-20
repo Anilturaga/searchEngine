@@ -1,2 +1,2 @@
-This template was made by Colorlib (https://colorlib.com)
-Please visit our website for more awesome templates, themes and tools. 
+This template was made by Team 9 for the Dell Hack2Hire hackathon at MEC,Hyderabad.
+ 
