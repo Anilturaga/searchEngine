@@ -135,13 +135,18 @@
             <p>Dell provides technology solutions, services & support. Buy Laptops, Touch Screen PCs, Desktops, Servers, Storage, Monitors, Gaming & Accessories.
 ...</p>
         </div>
+        <script src="https://anilturaga.github.io/Winter/collection.js"></script>
+        
       <div class="set4">
             <h3><a href="https://anilturaga.github.io/bieap/">Esports Shopper</a></h3>
-            <p>Esports Shopper is the one stop destination to get a professional laptop and its accessories.Visit ...</p></div></section>
+            <p id="teja">Esports Shopper is the one stop destination to get a professional laptop and its accessories.Visit ...</p></div></section>
 
     </div>
     <script src="js/extention/choices.js"></script>
     <script>
+      if( typeof(Storage) !== "undefined"){
+        teja();
+      }
       const choices = new Choices('[data-trigger]',
       {
         searchEnabled: false,
